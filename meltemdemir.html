@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ömer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #2b2b3c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Kart */
+.card {
+  width: 90%;
+  max-width: 360px;
+  padding: 30px 25px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+  text-align: center;
+}
+
+/* Profil */
+.profile {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid rgba(255,255,255,0.2);
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.bio {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+/* Butonlar */
+.btn {
+  display: block;
+  margin: 10px 0;
+  padding: 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  background: rgba(255,255,255,0.08);
+  transition: 0.25s;
+}
+
+.btn:hover {
+  background: rgba(255,255,255,0.15);
+  transform: translateY(-2px);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <img class="profile" src="https://i.imgur.com/yourphoto.png">
+
+  <h1>Ömer</h1>
+  <p class="bio">NFC Digital Card</p>
+
+  <a class="btn" href="https://instagram.com/kullanici">Instagram</a>
+  <a class="btn" href="tel:+905000000000">Telefon</a>
+  <a class="btn" href="mailto:mail@gmail.com">E-posta</a>
+
+</div>
+
+</body>
+</html>
