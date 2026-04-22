@@ -222,7 +222,7 @@
 
         // Rehbere Kaydet Fonksiyonu
         function downloadVCard() {
-            const vcard = "BEGIN:VCARD\nVERSION:3.0\nFN:Şirket Adı\nORG:Şirket Adı Ltd. Şti.\nTEL;TYPE=WORK,VOICE:+905000000000\nEMAIL:info@sirketiniz.com\nADR;TYPE=WORK:;;Merkez Ofis;İstanbul;;Turkey\nURL:https://www.sirketiniz.com\nEND:VCARD";
+            const vcard = "BEGIN:VCARD\nVERSION:3.0\nFN:Şirket Adı\nORG:Nfc Anahtarlık\nTEL;TYPE=WORK,VOICE:+905488209894\nEMAIL:omerkugurlu@icloud.com\nADR;TYPE=WORK:;;Girne;Kıbrıs\nURL:https://nfc-anahtarlik.netlify.app/\nEND:VCARD";
             const blob = new Blob([vcard], { type: "text/vcard" });
             const url = window.URL.createObjectURL(blob);
             const newLink = document.createElement('a');
